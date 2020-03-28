@@ -1,10 +1,10 @@
 # RSA-Encryption App 
 
 The RSA Encryption app demonstrates how to use RSA encryption in order to encrypt text in:
-<ol>
+<ul>
   <li>Base64 encoded text</li>
   <li>QR code format</li>
-</ol>
+</ul>
 The app is structured into two modules or steps:
 <ol>
   <li>Scanning of the RSA public key in QR code format</li>
