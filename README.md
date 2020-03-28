@@ -1,6 +1,6 @@
 # RSA-Encryption App 
 
-The RSA Encryption app demonstrates how to use RSA encryption in order to encrypt text in:
+The RSA Encryption app demonstrates how to use RSA encryption to encrypt plain text in:
 <ul>
   <li>Base64 encoded text</li>
   <li>QR code format</li>
@@ -17,7 +17,7 @@ The app uses <a href="https://github.com/zxing/zxing">ZXing ("Zebra Crossing")</
 <h2>Use</h2>
 <ol>
   <li>Download the repository and open it with Android Studio.</li>
-  <li>In the app-level build.gradle change the name of the app from "com.example.mlkit_barcode_ocr" to your preferred name.</li>
+  <li>In the app-level build.gradle change the name of the app from "com.example.movebetweenactivities" to your preferred name.</li>
   <li>Register the app with <a href="https://firebase.google.com/docs/android/setup">Firebase</a>, download the .json file and add it to the <b>app/</b> folder. 
 </ol> 
 
@@ -28,7 +28,7 @@ Press run. The rest of the instructions are shown on the screen.<br/>
 ![](RSA_encryption_app.png)
 <br/>
 
-<b>Step 1</b>: As a first step, you will have to scan the public key in QR format. One example can be found under Test RSA-Decryption/.<br/>
+<b>Step 1</b>: As a first step, you will have to scan the public key in QR format. One example can be found under the <i>Test RSA-Encryption/</i> folder.<br/>
 <b>Step 2</b>: On the second screen, type the text that you want to encode. Select the encapsulation method from the dropdown menu: base64 encoded or QR code encrypted text.<br/>
 
 ![](encryption.gif)
