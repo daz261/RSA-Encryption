@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.clientside">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RSA Encryption App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:replace="android:appComponentFactory"
+        android:theme="@style/Theme.AppCompat"
+        android:appComponentFactory="whatever">
+        <activity
+            android:name="com.example.clientside.QRScanner"
+            android:label="@string/title_activity_third2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.clientside.QRGenerator"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat" />
+        <activity android:name="com.example.clientside.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

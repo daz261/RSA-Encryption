@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif"
+        android:text="Type text below: "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textColorLink="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/editText_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textColor="#000"
+        android:textColorLink="#000"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+<!--    <Button-->
+<!--        android:id="@+id/receive_button_id2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:onClick="onButtonClick"-->
+<!--        android:text="GENERATE QR OF ENCRYPTED TEXT"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#121010"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_ocr"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="190dp"-->
+<!--        android:text="GENERATE ENCRYPTED TEXT"-->
+<!--        android:textStyle="bold"/>-->
+
+    <TextView
+        android:id="@+id/ocr_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textColorLink="#000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        />
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/control"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="130dp">-->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="175dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:visibility="visible" />
+
+
+<!--    </FrameLayout>-->
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:text="Encrypt Text With Scanned Public Key"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#0B0A0A"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+
+</RelativeLayout>
