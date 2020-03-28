@@ -28,7 +28,7 @@ Press run. The rest of the instructions are shown on the screen.<br/>
 ![](RSA_encryption_app.png)
 <br/>
 
-<b>Step 1</b>: As a first step, you will have to scan the public key in QR format. One example can be found under the <i>Test RSA-Encryption/</i> folder.<br/>
+<b>Step 1</b>: As a first step, you will have to scan the public key in QR format. One example can be found under the <a href="https://github.com/daz261/RSA-Encryption/tree/master/Test%20RSA-Encryption">Test RSA-Encryption/</a> folder.<br/>
 <b>Step 2</b>: On the second screen, type the text that you want to encode. Select the encapsulation method from the dropdown menu: base64 encoded or QR code encrypted text.<br/>
 
 ![](encryption.gif)
