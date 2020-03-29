@@ -2,7 +2,7 @@
 
 The RSA Encryption app demonstrates how to use RSA encryption to encrypt plain text in:
 <ul>
-  <li>Base64 encoded text</li>
+  <li>Hex encoded text</li>
   <li>QR code format</li>
 </ul>
 The app is structured into two modules or steps:
