@@ -39,7 +39,7 @@ public class QRScanner extends AppCompatActivity {
             }
             else {
                 //show the result on the screen
-                Toast.makeText(this, result.getContents(),Toast.LENGTH_LONG).show();
+             //   Toast.makeText(this, result.getContents(),Toast.LENGTH_LONG).show();
                 //send scanned public key to Main Activity
                 Intent publicKeyIntent = new Intent (QRScanner.this, MainActivity.class);
                 publicKey = result.getContents().toString().trim();;

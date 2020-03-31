@@ -146,6 +146,7 @@ public class QRGenerator extends AppCompatActivity implements AdapterView.OnItem
         }
         if (position == 1){
             ocr_view.setText("");
+            image.setImageResource(0);
             String encryptedString2 = null;
            //retrieve text from user (ie. text to encrypt)
             text2Qr = text.getText().toString().trim();
